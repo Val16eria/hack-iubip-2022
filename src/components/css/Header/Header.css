@@ -1,0 +1,19 @@
+
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 113px;
+    height: 81px;
+}
+
+.page-name {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #444444;
+}

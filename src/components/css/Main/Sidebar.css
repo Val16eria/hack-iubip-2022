@@ -1,0 +1,50 @@
+.sidebar {
+    width: 386px;
+    padding-top: 115px; 
+}
+
+.sidebar__button {
+    background-color: #fff;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 31px 18px;
+    width: 358px;
+    height: 91px;
+    border: 0;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+.sidebar__button {
+    border-left: 7px solid transparent;
+}
+
+.sidebar__button:hover {
+    border-left: 7px solid #1E7BB9;
+} 
+
+.sub-button {
+    display: none;
+}
+
+.active-button {
+    background-color: #1E7BB9;
+    color: #FFFFFF;
+}
+
+.active-button svg path{
+    fill: #fff;
+}
+
+.convert-frx--close{
+    display: none;
+}
+
+.ndfl-closed {
+    display: none;
+}
