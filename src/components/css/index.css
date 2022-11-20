@@ -46,5 +46,5 @@ textarea {
 body {
     font-family: 'Inter', 'Arial', sans-serif;
     margin: 0 auto;
-    max-width: 1370px;
+    width: 1370px;
 }

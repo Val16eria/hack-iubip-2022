@@ -5,7 +5,7 @@
 
 .sidebar__button {
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 0 3px 3px 0;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;

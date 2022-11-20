@@ -6,11 +6,28 @@
     display: none;
 }
 
+.ndfl {
+    width: 100%;
+    border: 5px solid #F8F9FA;
+    position: relative;
+}
+
+.ndfl-image {
+    width: 100%;    
+}
+
+.ndfl input {
+    position: absolute;
+    height: 30px;
+    border: 1px dashed #000;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
 
 .ndfl-2-1 input{
-    height: 20px;
-    font-size: 15px;
-    letter-spacing: 0.01em;
+    height: 20px !important;
+    font-size: 15px !important;
+    letter-spacing: 0.01em !important;
 }
 
 .ndfl-2-1 input:nth-of-type(1) {
@@ -1327,4 +1344,18 @@
     width: 301px;
     left: 610px;
     top: 1209px;
+}  
+
+.ndfl-2-1 input:nth-of-type(189) {
+    height: 18px;
+    width: 451px;
+    left: 61px;
+    top: 1248px;
+}  
+
+.ndfl-2-1 input:nth-of-type(190) {
+    height: 18px;
+    width: 188px;
+    left: 61px;
+    top: 1288px;
 }  

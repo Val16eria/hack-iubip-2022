@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import "../css/Main/Box3.css";
 import ndfl1 from '../Image/ndfl-1.jpg';
 import ndfl2 from '../Image/ndfl-2.jpg';
@@ -8,13 +7,18 @@ import ndfl5 from '../Image/ndfl-5.jpg';
 
 const Box3: React.FC = () => {
 
-    const [inputValue, setInputValue] = useState('');
+    function ndfl3box() {
+        let d = document.querySelector(".ndfl-2-1");
+        console.log(d);
+        let inpElm = d?.querySelectorAll("input");
+        console.log(inpElm);
+    }
 
     return (
     <div className="ndfl-box-3 ndfl-closed">
         <div className="ndfl-1 ndfl">
                 <img className="ndfl-image" src={ndfl1} alt="" />
-                <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} type="text" name="INN" maxLength={12} />
+                <input type="text" name="INN" maxLength={12} />
                 <input type="text" name="Str" maxLength={3} />
 
                 <input type="text" name="adjustment-number" maxLength={3} />
@@ -240,11 +244,8 @@ const Box3: React.FC = () => {
                 <input type="text" name="summ" maxLength={14} />
                 <input type="text" name="summ" maxLength={14} />
             </div>
-
             <button 
-                onClick={async () => {
-                    console.log(inputValue);                   
-                }} 
+                onClick={() => ndfl3box()} 
                 style={
                     {padding: 20, 
                     backgroundColor: '#1E7BB9', 
@@ -255,6 +256,7 @@ const Box3: React.FC = () => {
                     cursor: 'pointer'}}>
                         <b>Отправить декларацию</b>
             </button>
+            
     </div>
     )
 }
